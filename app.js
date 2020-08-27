@@ -7,7 +7,22 @@ const finalMessage = document.getElementById("final-message");
 
 const figureParts = document.querySelectorAll(".figure-part");
 
-const words = ["ativista", "professor", "minuto", "luta", "superar"];
+const words = [
+  "horas",
+  "tempo",
+  "minutos",
+  "relogio",
+  "ponteiros",
+  "correia",
+  "segundos",
+  "alarme",
+  "corda",
+  "pilhas",
+  "analogico",
+  "digital",
+  "cuco",
+  "ampulheta",
+];
 
 let selectedWord = words[
   Math.floor(Math.random() * words.length)
